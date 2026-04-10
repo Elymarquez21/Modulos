@@ -1,0 +1,15 @@
+# MiniMarket - Módulo 5
+
+## Requisitos
+Python 3.x
+
+## Instalación
+pip install faker
+
+## Ejecución
+python main.py
+
+## Funcionalidad
+Permite generar registros falsos de ventas usando la librería Faker.
+
+Los datos se guardan automáticamente en ventas.json.
