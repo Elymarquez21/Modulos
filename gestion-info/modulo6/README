@@ -1,0 +1,17 @@
+# Proyecto CRUD Usuarios
+
+## Cómo ejecutar
+
+python main.py
+
+## Cómo ejecutar pruebas
+
+pytest
+
+## Descripción
+
+Sistema CRUD básico con:
+- Separación por capas (service, storage, utils)
+- Manejo de errores
+- Pruebas con pytest
+- Código limpio y mantenible
