@@ -10,19 +10,33 @@ Permite registrar, consultar, actualizar y eliminar usuarios de una organizació
 
 ```
 gestion-info/
+│
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+│
 ├── data/
-│   └── records.json          # Base de datos local (JSON)
+│   ├── records.json
+│   └── backups/              # (opcional, si llegas a guardar copias)
+│
 └── src/
-    ├── main.py               # Punto de entrada
-    ├── menu.py               # Interfaz de consola
-    ├── service.py            # Lógica CRUD
-    ├── file.py               # Persistencia JSON
-    ├── validate.py           # Validaciones y helpers
-    └── integration.py        # Integración con Faker
-```
+    ├── main.py
+    ├── menu.py
+    ├── service.py
+    ├── file.py
+    ├── validate.py
+    ├── integration.py
+    │
+    ├── models/               # (si manejas estructuras)
+    │   └── __init__.py
+    │
+    ├── utils/                # funciones auxiliares
+    │   └── helpers.py
+    │
+    └── __pycache__/          # generado automáticamente (NO subir)
+        ├── main.cpython-314.pyc
+        ├── menu.cpython-314.pyc
+        ├── service.cpython-314.pyc
 
 ## ⚙️ Requisitos
 
